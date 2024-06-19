@@ -1,0 +1,23 @@
+.form input {
+
+    width: 550px;
+    height: 35px;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+}
+
+button:disabled {
+    border: 2px dotted darkgrey;
+
+}
